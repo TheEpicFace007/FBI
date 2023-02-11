@@ -17,15 +17,15 @@ BUILD_FLAGS := -Wno-format-truncation
 
 VERSION_PARTS := $(subst ., ,$(shell git describe --tags --abbrev=0))
 
-VERSION_MAJOR := $(word 1, $(VERSION_PARTS))
-VERSION_MINOR := $(word 2, $(VERSION_PARTS))
-VERSION_MICRO := $(word 3, $(VERSION_PARTS))
+VERSION_MAJOR := 2
+VERSION_MINOR := 6
+VERSION_MICRO := 1
 
 DESCRIPTION := Open source title manager.
-AUTHOR := Steveice10
+AUTHOR := Steveice10, TheEpicFace007
 
-PRODUCT_CODE := CTR-P-CFBI
-UNIQUE_ID := 0xF8001
+PRODUCT_CODE := CTR-CUSTOM-CFBI
+UNIQUE_ID := 0xF8002
 
 ICON_FLAGS := --flags visible,ratingrequired,recordusage --cero 153 --esrb 153 --usk 153 --pegigen 153 --pegiptr 153 --pegibbfc 153 --cob 153 --grb 153 --cgsrr 153
 
