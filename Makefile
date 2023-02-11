@@ -19,10 +19,10 @@ VERSION_PARTS := $(subst ., ,$(shell git describe --tags --abbrev=0))
 
 VERSION_MAJOR := 2
 VERSION_MINOR := 6
-VERSION_MICRO := 1
+VERSION_MICRO := 2
 
 DESCRIPTION := Open source title manager.
-AUTHOR := Steveice10, TheEpicFace007
+AUTHOR := Steveice10 and TheEpicFace007
 
 PRODUCT_CODE := CTR-CUSTOM-CFBI
 UNIQUE_ID := 0xF8002
